@@ -35,7 +35,8 @@ structured model resembling a flowchart, driven by input features
 - It checks for the target
 - Checks for target data: 
 - Training model: 4 training model was applied which are decision tree,support vector machine,K-nearest neighbour,logistic regression and decision happened to be the best performing model
-  
+- Testing data: after training the model is tested andaccuracy is obtained with necessary graphs. A small comparison plot is also included in algorithm.
+- Results: as last step the results are obtained, and the model execution ends. Few additional steps of regularization imputation and many other commands are included in the code to improve the accuracy and prevent the model from overfitting and underfitting. This also increases the generalization of the model and allows it to predict the new data with more accuracy.
 # 4. Key Findings
 Based on the analysis of the provided data, here are the key findings:
 
@@ -77,4 +78,4 @@ This analysis provides valuable insights and recommendations for PetMind's sales
 # 7. Data Sources
 The analysis is based on online payment data provided by Blossom bank aslo known as BB PLC ia a multinational financial service group,that offers retail and investment banking,pension management,asset management and payment services. The dataset includes information on step, type,amount,nameOrig,oldbalanceOrg,newbalanceOrig,nameDest,oldbalanceDest,newbalanceDest and isFraud.
 
-8. License
+8. License 
